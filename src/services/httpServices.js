@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "https://sparow-clinic-admin.herokuapp.com"
+const baseURL = "https://sparow-clinic-admin.herokuapp.com/api/"
 
 export const authAxios = axios.create({
     baseURL:baseURL,
